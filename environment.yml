@@ -23,5 +23,5 @@ dependencies:
   - scikit-image
   - Pillow
   - nbgitpuller
-  - opencv-python-headless
+  - opencv-python
   - python==3.8.5
