@@ -180,7 +180,7 @@ dependencies:
     - ipython-genutils==0.2.0
     - iso8601==0.1.16
     - jinja2==3.0.1
-    - jupyter-repo2docker==0+unknown
+    - jupyter-repo2docker
     - markupsafe==2.0.1
     - pip==19.0.3
     - python-json-logger==2.0.2
