@@ -1,4 +1,6 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/elyarzv/IP-Assig1/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/elyarzv/IP-Assig1/main?labpath=assignment1.ipynb)
+
+
 
 Hello everyone.  
 This is Elyar. I am a PhD student at the University of Regina working under the supervision of Professor Mehrandezh.
