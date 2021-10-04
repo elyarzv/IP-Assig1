@@ -22,4 +22,9 @@ dependencies:
   - python=3.7.11=h12debd9_0
   - python-dateutil=2.8.2=pyhd8ed1ab_0
   - python_abi=3.7=2_cp37m
+- pip:
+    - joblib==1.0.1
+    - scikit-learn==1.0
+    - scipy==1.7.1
+    - threadpoolctl==3.0.0
 prefix: /home/elyar/miniconda3
