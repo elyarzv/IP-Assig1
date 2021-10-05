@@ -1,5 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/elyarzv/IP-Assig1/main?labpath=assignment1.ipynb)
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/elyarzv/IP-Assig1/HEAD)
 
 
 Hello everyone.  
