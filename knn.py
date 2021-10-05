@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 # import the necessary packages
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import LabelEncoder
