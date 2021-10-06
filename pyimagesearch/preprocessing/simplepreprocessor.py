@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # import the necessary packages
 import cv2
 
@@ -13,4 +14,4 @@ class SimplePreprocessor:
         # resize the image to a fixed size, ignoring the aspect
         # ratio
         return cv2.resize(image, (self.width, self.height),
-                          interpolation=self.inter)
+                          interpolation = self.inter)
