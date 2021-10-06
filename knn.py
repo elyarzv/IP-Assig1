@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 # import the necessary packages
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import LabelEncoder
@@ -19,13 +18,14 @@ ap.add_argument("-k", "--neighbors", type=int, default=1,
     help="# of nearest neighbors for classification")
 ap.add_argument("-j", "--jobs", type=int, default=-1,
     help="# of jobs for k-NN distance (-1 uses all available cores)")
-args = vars(ap.parse_args( ))
+args = vars(ap.parse_args())
 
 
 
 # grab the list of images that we'll be describing
 print("[INFO] loading images...")
 imagePaths = list(paths.list_images(args["dataset"]))
+
 
 # initialize the image preprocessor, load the dataset from disk,
 # and reshape the data matrix
@@ -45,7 +45,7 @@ labels = le.fit_transform(labels)
 # partition the data into training and testing splits using 75% of
 # the data for training and the remaining 25% for testing
 (trainX, testX, trainY, testY) = train_test_split(data, labels,
-                                                  test_size=0.25, random_state=42)
+                                                  test_size=0.25,random_state=42)
 
 # train and evaluate a k-NN classifier on the raw pixel intensities
 print("[INFO] evaluating k-NN classifier...")
